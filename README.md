@@ -2,13 +2,7 @@
 <html>
     <head>
         <title>Portofolio</title>
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/reset.css">
-            <link rel="stylesheet" href="js/owl-carousel/owl.theme.css" />
-                <link rel="stylesheet" href="js/owl-carousel/owl.transitions.css" />
-                    <link rel="stylesheet" href="style.css">
-
+        
         <!-- Google Fonts -->
             <link href='http://fonts.googleapis.com/css family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
                 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
