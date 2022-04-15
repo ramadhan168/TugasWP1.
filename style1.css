@@ -1,0 +1,151 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100%;
+  padding: 3.5em 0;
+}
+
+.grey {
+  background: #ECF0F1;
+  padding: 100px 0 150px;
+}
+
+a {
+  color:#1abc9c;
+}
+
+a:hover {
+  color: #16a085;
+}
+
+a, img, .overlay, input, textarea, .plan-wrap p, .filters .filter {
+/*transition*/
+  -webkit-transition: all .12s linear;
+     -moz-transition: all .12s linear;
+       -o-transition: all .12s linear;
+          transition: all .12s linear;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1.7em;
+  color: #777777;
+  font-weight: normal;
+}
+
+body, input, textarea {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+h1 .navigation a, .btn, .filters .filter {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.2em;
+}
+/* *********************************************************
+  Buttons 
+********************************************************* */
+
+.btn {
+  position: center;
+  display: inline-block;
+  margin: .8em 0;
+  padding: .8em 1.6em;
+  color: #fff;
+  font-size: .7em;
+
+/*border-radius*/
+  -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+          border-radius: 50px;
+  background:#1abc9c;
+}
+
+.btn:hover, .btn:focus, .btn-current {
+  color: #fff;
+  background: #16a085;
+}
+
+.btn:hover, .social-set a:hover, .team-social a i:hover, .header-carousel .owl-buttons .owl-prev:hover, .header-carousel .owl-buttons .owl-next:hover {
+  -webkit-animation: rubberBand .8s 1;
+     -moz-animation: rubberBand .8s 1;
+       -o-animation: rubberBand .8s 1;
+          animation: rubberBand .8s 1;
+}
+
+@keyframes rubberBand {
+ 0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  30% {
+    -webkit-transform: scale3d(1.15, 0.9, 1);
+    transform: scale3d(1.15, 0.9, 1);}
+  40% {
+    -webkit-transform: scale3d(0.8, 1.15, 1);
+    transform: scale3d(0.8, 1.15, 1);}
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);}
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);}
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);}
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);}}
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+}
+
+.btn-big {
+  font-size: 1.4em;
+  padding: .65em 2.2em;
+}
+
+.btn-disabled, .btn-disabled:hover, .btn-disabled:focus {
+  cursor: default;
+  color: #bbb;
+  background: #e6e6e6;
+}
+
+.btn-ghost {
+  margin: 10px;
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+}
+
+.btn-ghost:hover {
+  border-color: transparent;
+  background-color:#1abc9c;
+}
+
+.btn-ghost-dark {
+  border-color: #1abc9c;
+  color: #1abc9c;
+}
+
+/* ******Home Slider********* */
+
+.header-carousel {
+  overflow: hidden;
+}
+
+.home-slider {
+  height: 700px;
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+.home-slide-1 {
+  background-image: url('images/slider/ramadhan.jpg');
+}
